@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  <meta charset="utf-8">
+  <title>Ejercicio 1</title>
+  <style media="screen">
+    .bandera {
+      display: inline-block;
+      height: 300px;
+      width: 500px;
+      margin: 50px;
+      position: relative;
+      border: 1px solid black;
+    }
+    .espana {
+     position: relative;
+     background-color: red;
+    }
+    .espana__amarillo {
+      position: absolute;
+      top: 75px;
+      background-color: yellow;
+      height: 50%;
+      width: 100%;
+    }
+    .dinamarca {
+      background-color: red;
+      position: relative;
+    }
+    .dinamarca__blanco {
+      height: 15%;
+      background-color: white;
+      position: absolute;
+      top: 130px;
+      width: 100%;
+    }
+    .dinamarca__blanco--vertical {
+      height: 300px;
+      width: 45px;
+      background-color: white;
+      position: absolute;
+      left: 130px;
+      top: 0;
+    }
+    .emiratos {
+      background-color: white;
+      position: relative;
+    }
+    .emiratos__verde {
+      height: 33.3%;
+      background-color: green;
+      width: 100%;
+      position: absolute;
+      top: 0;
+    }
+    .emiratos__negro {
+      height: 33.3%;
+      background-color: black;
+      width: 100%;
+      position: absolute;
+      bottom: 0;
+    }
+    .emiratos__rojo {
+      width: 25%;
+      background-color: red;
+      height: 100%;
+      position: absolute;
+      left: 0;
+      z-index: 1;
+    }
+    .japon__rojo {
+      position: absolute;
+      top: 70px;
+      left: 180px;
+      background-color: red;
+      border-radius: 50%;
+      width: 150px;
+      height: 150px;
+      }
+    }
+    }
+
+  </style>
+  </head>
+  <body>
+    <div class="bandera espana">
+      <div class="espana__amarillo"></div>
+    </div>
+    <div class="bandera dinamarca">
+      <div class="dinamarca__blanco"></div>
+      <div class="dinamarca__blanco--vertical"></div>
+    </div>
+    <div class="bandera emiratos">
+      <div class="emiratos__verde"></div>
+      <div class="emiratos__negro"></div>
+      <div class="emiratos__rojo"></div>
+    </div>
+    <div class="bandera japon">
+      <div class="japon__rojo"></div>
+    </div>
+  </body>
+</html>
